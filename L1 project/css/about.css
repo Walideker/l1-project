@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    height:100px ;
+    width: 100%;
+    position: fixed;
+}
+label.logo{
+    color: gray;
+    font-size: 36px;
+    line-height: 80px;
+    padding: 0 120px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    padding-left: 70px;
+    margin: 0 5px;
+}
+    
+nav ul li a{
+    color:  gray;
+    font-size: 17px;
+    
+}
+a.active:hover{
+    color: lightseagreen;
+    transition: .4s;
+}
+.home{
+    color: lightseagreen;
+}
+.logo{
+    color: lightseagreen;
+}
+.menu-btn img{
+    width: 25px; 
+}
+span{
+    color: lightseagreen;
+}
+/* nav bar ends */
